@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* This removes the border around the viewport in old versions of IE */
+    
+    background: #fff;
+   	font-size: 90%;
+    min-height: 800px;
+}
+
+
+
+/* column container */
+
+.container {
+    
+    /* This fixes the IE7 overflow hidden bug */
+  height: 600px;
+width: auto;
+    padding: 0;
+    background-color: #F06E70;
+}
+.leftmenu .colleft {
+    /* right colun width */
+    /* left column background colour */
+    background-color: green;
+    height: 50%;
+}
+
+.leftmenu .col1 {
+    margin: 0 auto;
+    width: 20%;
+    height: 600px;
+    float: left;
+    
+    min-height: 500px;
+    background-color: aquamarine;
+    
+}
+
+.leftmenu .col2 {
+     margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    float: right;
+    background-color: deepskyblue;
+
+}
+
+#ifrm {
+    width: 100%;
+    height: 100%;
+    float: left;
+   margin: 0 0 0 1%;
+   border-width: 2px;
+   border-color: blue;
+}
+
+.linkTitle{
+	min-width: 10%;
+	padding: 1%;
+	clear: both;
+
+
+}
+
+#ads img {
+    display: block;
+    padding-top: 45px;
+}
+
+
+
+/* Header styles */
+
+#header {
+    clear: both;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    
+}
+
+#header p,
+#header h1,
+#header h2 {
+    padding: .4em 15px 0 15px;
+    margin: 0;
+}
+
+#header ul {
+    float: left;
+    width: 100%;
+    
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    position: fixed;
+}
+
+#header ul li {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header ul li a {
+    display: block;
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    text-align: center;
+    background: #eee;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    left: 5px;
+    line-height: 1.3em;
+}
+
+#header ul li a:hover {
+    background: #369;
+    color: #fff;
+}
+
+#header ul li a.active,
+#header ul li a.active:hover {
+    color: #fff;
+    background: #000;
+    font-weight: bold;
+}
+
+#header ul li a span {
+    display: block;
+}
+
+#topnav {
+    align-content: justify;
+    position: relative;
+    width: 50%;
+    padding: 0 0 0 50%;
+    margin: 5px;
+}
+
+/* 'widths' sub menu */
+
+#layoutdims {
+    clear: both;
+    background: #FF0072;
+    border-top: 1px solid #000;
+    margin: 0;
+    padding: 3px 15px !important;
+    text-align: left;
+    
+}
+
+
+
+#navMenu ul {
+   
+    float: right;
+    list-style-type: none;
+    margin: 0 0 0 1%;
+    width: 18%;
+    height: 100%;
+    padding: 0;
+      display: block;
+    text-align: center;
+    background-color: #f1f1f1;
+   position: absolute;
+    overflow: scroll;
+}
+
+#navMenu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#navMenu li a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#navMenu a:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+#navMenu a.active {
+    background-color: #4CAF50;
+    color: white;
+	font-style: bold;
+	
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+button {
+text-decoration: none;
+    display: inline-block;
+    padding: 4px 16px;
+	border-radius: .5em;
+}
+button.off {
+    color: lightgray;
+}
+button.prev{
+	
+    
+}
+
+button.next{
+	
+    background-color: #9ffcd1;
+}
+
+button.on {
+    background-color: #65e8ac;
+    color: white;
+}
+
+a.round {
+    border-radius: 10%;
+}
+
+h1,
+h2,
+h3 {
+    margin: .8em 0 .2em 0;
+    padding: 0;
+}
+
+p {
+    margin: .4em 0 .8em 0;
+    padding: 0;
+}
+
+img {
+    margin: 10px 0 5px;
+}
+
+
+/* Footer styles */
+
+#footer {
+    clear: both;
+    width: 100%;
+    border-top: 7px solid #4A54CB;
+    border-bottom: 7px solid #4A54CB;
+    min-height: 100px;
+}
+
+#footer p {
+    padding: 10px;
+    margin: 0;
+}
